@@ -1,3 +1,6 @@
+# solution
+# add up all the numbers together that are divisible by 3 and 5
+
 def sigma_finder(limit):
     result = 0
     for i in range(1, limit):

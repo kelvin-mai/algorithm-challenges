@@ -1,3 +1,6 @@
+# solution
+# compare the string to it's reverse after removing punctuation, case sensitivity and spaces
+
 import string
 def remove_punctuation(str):
     return "".join(i.lower() for i in str if i in string.ascii_letters)
