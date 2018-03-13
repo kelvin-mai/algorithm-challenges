@@ -1,6 +1,9 @@
 function reverseString(str) {
-  return str.split('').reverse().join('');
+  return str
+    .split("")
+    .reverse()
+    .join("");
 }
 
 // test
-console.log(reverseString('Hello')); // olleH
+console.log(reverseString("Hello")); // olleH
