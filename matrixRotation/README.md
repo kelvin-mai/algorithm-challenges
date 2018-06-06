@@ -2,6 +2,8 @@
 
 Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
 
+### Test Case
+
 For example, given the following matrix:
 
 [[1, 2, 3, 4, 5],
