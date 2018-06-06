@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// using for loop
 func fibonacci(n int) []int {
 	f := make([]int, n+1, n+2)
 	if n < 2 {
@@ -19,6 +20,7 @@ func fibonacci(n int) []int {
 }
 
 func main() {
+	// test case of 15
 	fib := fibonacci(15)
 	fmt.Printf("%v", fib)
 	fmt.Println("")
